@@ -7,7 +7,7 @@ import { sequelize } from "./db/conexion.js";
 
 import { commentRoutes } from './router/CommetsRouter.js';
 
-const _PORT = PORT || 4173;
+const _PORT = PORT || 3000;
 const app = express();
 app.use(express.json());
 app.use(cors({
